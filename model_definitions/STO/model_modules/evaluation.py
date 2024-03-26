@@ -69,7 +69,7 @@ def evaluate(context: ModelContext, **kwargs):
                           rows.shape[0],
                           partition_metadata]])
 
-    number_of_amps = 2
+    number_of_amps = 10
     pdf = df.assign(partition_id=df.PatientId % number_of_amps)
     partitioned_dataset_table = "partitioned_dataset"
     pdf.to_sql(partitioned_dataset_table, if_exists='replace', temporary=True)
