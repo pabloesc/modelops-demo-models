@@ -1,6 +1,6 @@
 {
     "id": "0960d41e-20b8-41d6-9ccd-708344b140c3",
-    "name": "Diabetes Prediction using teradataml OpenSource DecisionTreeClassifier",
-    "description": "teradataml OpenSource DecisionTreeClassifier for Diabetes Predictions",
+    "name": "Hybrid search",
+    "description": "Hybrid search on vector db",
     "language": "python"
 }
